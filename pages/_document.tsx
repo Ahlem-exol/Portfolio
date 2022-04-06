@@ -12,7 +12,7 @@ class MyDocument extends Document {
           />
         </Head>
         {/*  i should put an img  */}
-        <body className="bg-fixed bg-gradient-to-r from-green to-blue-500 dark:from-dark-500 dark:to-dark-700 dark:text-white">
+        <body className="">
           <Main />
           <NextScript />
         </body>
@@ -22,3 +22,4 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+// from-green to-blue-500 dark:from-dark-500 dark:to-dark-700 dark:text-white

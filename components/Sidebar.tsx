@@ -1,8 +1,10 @@
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillYoutube, AiOutlineCloudDownload } from "react-icons/ai";
+import { SiFiverr} from "react-icons/si";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
 import Image from "next/image";
+import Typewriter from 'typewriter-effect';
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -13,41 +15,54 @@ const Sidebar = () => {
 
   return (
     <>
-      <Image
-        src="/Images/logo.png"
+      {/* <Image
+        src="/Images/R.jpg"
         alt="avatar"
         className="mx-auto border rounded-full "
         height="128px"
         width="128px"
         layout="intrinsic"
         quality="100"
-      />
+
+      /> */}
+      {/* #ffb6c1 */}
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green ">Sumit</span> Dey
+        Hello it  <span className="text-pink ">Ahelm</span> CHELLI
       </h3>
-      <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
+      {/* <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Web Developer
-      </p>
+      </p> */}
+         <span className='text-pink-light'>
+                        <Typewriter
+                        options={{
+                            strings: ['Full stack Developer','Artificial Intelligence Engineer','Ui Designer','IT Project Manager'],
+                            autoStart: true,
+                            loop: true,
+                            deleteSpeed:20
+                        }}
+                        />
+                    </span>
       {/* Resume */}
+      <br></br>
       <a
       // i should creat a assets dossier 
-        href="/assets/Sumit Dey Resume.pdf"
-        download="Sumit Dey Resume.pdf"
+        href="/Doc/Encv.pdf"
+        download="Encv.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
-        <GiTie className="w-6 h-6" />
+        <AiOutlineCloudDownload className="w-6 h-6" />
         <span>Download Resume</span>
       </a>
 
       {/* Socials */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A">
-          <AiFillYoutube className="w-8 h-8 cursor-pointer" />
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-pink md:w-full ">
+        <a href="https://www.fiverr.com/ahlemexol?up_rollout=true">
+          <SiFiverr className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/sumit-dey-4a04431a9/" >
+        <a href="https://www.linkedin.com/feed/" >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.instagram.com/_sumax__/">
+        <a href="https://github.com/Ahlem-exol">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
         </a>
       </div>
@@ -58,27 +73,27 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" /> <span>Kolkata,India </span>
+          <GoLocation className="mr-2" /> <span>Alger,Algeria </span>
         </div>
-        <p className="my-2 "> code.sumax@gmail.com </p>
-        <p className="my-2"> 8514961665 / 8640960375 </p>
+        <p className="my-2 "> chelliahelm98@gmail.com </p>
+        <p className="my-2"> +213 6 76 55 80 79 </p>
       </div>
 
       {/* Email Button */}
-
+<p>I will give your business a new creative start right away! contact me now</p><br></br>
       <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:code.sumax@gmail.com")}
+        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-pink to-gray-500 hover:scale-105 focus:outline-none"
+        onClick={() => window.open("mailto:chelliahlem98@gmail.com")}
       >
         Email me
       </button>
-      <button
+      {/* <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
+        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-pink to-gray-500 focus:outline-none hover:scale-105 "
       >
-        {/* //TODO remove bg black */}
+   
         Toggle Theme
-      </button>
+      </button> */}
     </>
   );
 };
