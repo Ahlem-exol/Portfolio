@@ -12,7 +12,7 @@ class MyDocument extends Document {
           />
         </Head>
         {/*  i should put an img  */}
-        <body className="">
+        <body className="bg-fixed bg-gradient-to-r from-pink to-pink-100 dark:from-dark-500 dark:to-dark-700 dark:text-white ">
           <Main />
           <NextScript />
         </body>
