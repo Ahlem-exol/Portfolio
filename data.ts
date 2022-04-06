@@ -101,7 +101,7 @@ export const projects: IProject[] = [
     name: "Parc Informatique",
     description:
       "web application for the management of computer equipment in an organization, is in progress.",
-    image_path: "/Images/parc.jpg",
+    image_path: "/Images/parc.jpeg",
     deployed_url: "/",
     github_url: "https://github.com/Ahlem-exol/ParcInfo",
     category: ["Angular"],
@@ -109,7 +109,7 @@ export const projects: IProject[] = [
   },
   { id:2,
     name: "Alrim SPA",
-    image_path: "/Images/alrim.jpg",
+    image_path: "/Images/alrim.jpeg",
     deployed_url: "http://www.alrim.dz/",
     github_url: "/",
     category: ["CMS"],
@@ -121,7 +121,7 @@ export const projects: IProject[] = [
   {
     id:3,
     name: "Eco SMART Lab",
-    image_path: "/Images/eco.jpg",
+    image_path: "/Images/eco.jpeg",
     deployed_url: "http://www.fablab1.alrim.dz/",
     github_url: "https://github.com/Ahlem-exol/EcoSmartLab",
     category: ["CMS"],
