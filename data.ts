@@ -32,7 +32,7 @@ export const services: IService[] = [
   },
   {
     Icon: AiOutlineAntDesign,
-    title: "IT Project Managerr",
+    title: "IT Project Manager",
     about:
       "Constitute and lead working groups supervise the project phases from analysis to implementation of the solution. ",
   },
