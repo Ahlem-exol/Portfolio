@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @layer utilities {
+    .content-auto {
+        content-visibility: auto;
+    }
+} */
 body {
     font-family: sans-serif;
     color: #354358;

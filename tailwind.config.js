@@ -1,6 +1,5 @@
 module.exports = {
-  purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
-  darkMode: "class",
+  content: ["./pages/**/*.tsx", "./components/**/*.tsx"],
   theme: {
     fontFamily: {
       sans: ["ui-sans-serif", "system-ui"],
