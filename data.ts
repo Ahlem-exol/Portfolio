@@ -11,7 +11,7 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>,<b> bootstrap</b>  and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>,<b> bootstrap</b>  and <b>React.js</b> ... ",
   },
   {
     Icon: FaServer,
@@ -52,7 +52,7 @@ export const languages: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "JEE",
+    name: "JEE,Spring BOOT, MVC",
     level: "80",
   },
   {
@@ -62,12 +62,12 @@ export const languages: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Angular, Material U,",
+    name: "IONIC,Angular, Material U",
     level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap,HTTML,CSS,Tailwind Css",
+    name: "HTML,CSS,Bootstrap,Tailwind Css",
     level: "80",
   },
 ];
@@ -75,7 +75,7 @@ export const languages: ISkill[] = [
 export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: "Git",
+    name: "Git;GitHub",
     level: "85",
   },
   {
@@ -85,8 +85,8 @@ export const tools: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "GitHub",
-    level: "60",
+    name: "Figma",
+    level: "50",
   },
   {
     Icon: BsCircleFill,
@@ -100,28 +100,28 @@ export const projects: IProject[] = [
     id:1,
     name: "Parc Informatique",
     description:
-      "web application for the management of computer equipment in an organization, is in progress.",
-    image_path: "/Images/parc.jpeg",
+      "Web application that atomatizes all the activities of the DSI, such as helpdesk management, hardware and software inventory ...,This app is in progress.",
+    image_path: "/Images/parcInformatique.JPG",
     deployed_url: "/",
     github_url: "https://github.com/Ahlem-exol/ParcInfo",
     category: ["Angular"],
-    key_techs: ["Angular", "Node Js"],
+    key_techs: ["Angular", "Node Js","Express"],
   },
   { id:2,
     name: "Alrim SPA",
-    image_path: "/Images/alrim.jpeg",
+    image_path: "/Images/alrim.JPG",
     deployed_url: "http://www.alrim.dz/",
     github_url: "/",
     category: ["CMS"],
     description:
-      "maintenance of this website, which shows the information of the Company EPE Alrim Spa ",
+      "makes all types of maintenance in this website, which shows the information of the Company,This app is in progress. ",
     key_techs: ["CMS", "Drupal"],
   },
 
   {
     id:3,
     name: "Eco SMART Lab",
-    image_path: "/Images/eco.jpeg",
+    image_path: "/Images/fablab.JPG",
     deployed_url: "http://www.fablab1.alrim.dz/",
     github_url: "https://github.com/Ahlem-exol/EcoSmartLab",
     category: ["CMS"],
@@ -138,12 +138,27 @@ export const projects: IProject[] = [
   {
     id:4,
     name: "Portfolio",
-    image_path: "/Images/Capture web_6-4-2022_211445_localhost.jpeg",
+    image_path: "/Images/portfilio.JPG",
     deployed_url: "https://portfolio-ds9xb8ijr-ahlem-exol.vercel.app/",
     github_url: "https://github.com/Ahlem-exol/Portfolio",
     category: ["js"],
     description:
       "I made this portfolio to share with you my projects and skills. ",
+    key_techs: [
+      "Next Js",
+      " React ",
+      "Tailwind  CSS",
+    ],
+  },
+  {
+    id:5,
+    name: "Espace Client",
+    image_path: "/Images/espca.JPG",
+    deployed_url: "/",
+    github_url: "https://github.com/Ahlem-exol/Portfolio",
+    category: ["js"],
+    description:
+      "web and mobile application through the use of IONIC, this application for the purpose of simplifying the consultation of the progress of a project for the company's client ",
     key_techs: [
       "Next Js",
       " React ",

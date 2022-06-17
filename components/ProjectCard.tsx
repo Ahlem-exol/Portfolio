@@ -34,7 +34,7 @@ const ProjectCard: FunctionComponent<{
         className="cursor-pointer"
         onClick={() => setShowDetail(id)}
         layout="responsive"
-        height="150"
+        height="250"
         width="300"
       />
      
@@ -75,7 +75,7 @@ const ProjectCard: FunctionComponent<{
               src={image_path}
               alt={name}
               layout="responsive"
-              height="150"
+              height="250"
               width="300"
             />
             </motion.div>

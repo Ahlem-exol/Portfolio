@@ -48,7 +48,7 @@ exit={{
             Artificial Intelligence Engineer
 
             </h5>
-            <p className="font-semibold">Master s degree - University of Algiers, Algeria (2018-2020)</p>
+            <p className="font-semibold">Master&apos;s degree - University of Algiers, Algeria (2018-2020)</p>
             <p className="my-3">
             
             </p>
