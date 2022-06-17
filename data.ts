@@ -155,7 +155,7 @@ export const projects: IProject[] = [
     name: "Espace Client",
     image_path: "/Images/espca.JPG",
     deployed_url: "/",
-    github_url: "https://github.com/Ahlem-exol/Portfolio",
+    github_url: "https://github.com/Ahlem-exol/EspaceClient",
     category: ["js"],
     description:
       "web and mobile application through the use of IONIC, this application for the purpose of simplifying the consultation of the progress of a project for the company's client ",
