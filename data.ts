@@ -160,9 +160,9 @@ export const projects: IProject[] = [
     description:
       "web and mobile application through the use of IONIC, this application for the purpose of simplifying the consultation of the progress of a project for the company's client ",
     key_techs: [
-      "Next Js",
-      " React ",
-      "Tailwind  CSS",
+      "IONIC",
+      " Angular ",
+      "Node JS",
     ],
   },
 
